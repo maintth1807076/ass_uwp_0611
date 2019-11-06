@@ -36,6 +36,7 @@ namespace ass_uwp_0611
 
         private void AddContact_OnClick(object sender, RoutedEventArgs e)
         {
+
             _model.Insert(new Contact
             {
                 Name = this.Name.Text,
@@ -50,10 +51,11 @@ namespace ass_uwp_0611
             listContact = new ObservableCollection<Contact>();
             if (list == null || list.Count == 0)
             {
+                this.StatusSearch.Text = "No contact found";
                 return;
             }
 
-            listContact = list;
+            listContact.Add(list[0]);
             ListViewContact.ItemsSource = listContact;
         }
 

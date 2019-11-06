@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-06T08:55:06.474</Modified>
+      <Modified>2019-11-06T09:19:18.086</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\ass_uwp_0611.exe">
       <PackagePath>entrypoint\ass_uwp_0611.exe</PackagePath>
-      <Modified>2019-11-06T08:55:05.783</Modified>
+      <Modified>2019-11-06T09:19:15.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -98,15 +98,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\ass_uwp_0611.xr.xml">
       <PackagePath>ass_uwp_0611.xr.xml</PackagePath>
-      <Modified>2019-11-06T08:55:05.620</Modified>
+      <Modified>2019-11-06T09:19:15.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-06T08:55:05.624</Modified>
+      <Modified>2019-11-06T09:19:15.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-06T08:55:05.625</Modified>
+      <Modified>2019-11-06T09:19:15.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\ass_uwp_0611\ass_uwp_0611\bin\x86\Debug\Core\ass_uwp_0611.exe">
       <PackagePath>ass_uwp_0611.exe</PackagePath>
-      <Modified>2019-11-06T08:55:06.452</Modified>
+      <Modified>2019-11-06T09:19:18.081</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
