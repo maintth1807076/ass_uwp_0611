@@ -9,6 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel Orientation="Vertical">
+            <TextBox x:Name="Name" PlaceholderText="Name"></TextBox>
+            <TextBox x:Name="PhoneNumber" PlaceholderText="PhoneNumber"></TextBox>
+            <Button Click="AddContact_OnClick" Content="AddContact"></Button>
+            <TextBox x:Name="KeyWord" PlaceholderText="Name"></TextBox>
+            <Button Click="SearchContact_OnClick" Content="SearchContact"></Button>
+            <ListView x:Name="ListViewContact" Width="420" Height="650" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock  x:Name="Name"  FontSize="20" FontWeight="Bold" Text="{Binding Name}"></TextBlock>
+                            <TextBlock  x:Name="PhoneNumber"  FontSize="10" FontWeight="Bold" Text="{Binding PhoneNumber}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>
